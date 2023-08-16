@@ -1,0 +1,91 @@
+MFV Code;MFV Scenario;Foundation
+101;You see a man telling a woman that her painting seems to have been made by a child.;Care (e)
+102;You see a girl saying that another girl is too ugly to enter to a party.;Care (e)
+103;You see a man saying out loud to his wife that the dinner she cooked is awful.;Care (e)
+104;You see a girl laughing when she realizes that her friend's father is a janitor.;Care (e)
+105;You see a boy saying to a woman that she looks like her fat dog.;Care (e)
+106;You see a girl telling a boy that his older brother is much more attractive than him;Care (e)
+107;You see a man laughing as he passes by a cancer patient who has his bald head.;Care (e)
+108;You see a man laughing at a physically disabled colleague during the soccer game at work.;Care (e)
+109;You see a man quickly cancelling his blind date as soon as he sees the woman.;Care (e)
+110;You see a teenager laughing at an amputee man who passed him on the subway;Care (e)
+111;You see a girl laughing at another student who forgot the lines at a school theatre play.;Care (e)
+112;You see a woman talking out loud about how fat another woman is wearing jeans.;Care (e)
+113;You see a woman intentionally avoiding sitting next to an obese woman on the bus.;Care (e)
+114;You see a boy making fun of his brother because his girlfriend broke up with him;Care (e)
+115;You see a teenage girl clearly staring at a disfigured woman as she passes by.;Care (e)
+116;You see a girl telling her classmate that it looks like she gained weight;Care (e)
+201;You see a boy leaving a series of booby traps to kill loose cats in his neighborhood.;Care (p, a)
+202;You see a woman throwing her cat on the other side of the room because he has scratched the furniture.;Care (p, a)
+203;You see a woman intentionally driving her car to run over a squirrel.;Care (p, a)
+204;You see a zoo trainer hitting a dolphin to get it to perform some tricks and entertain the audience.;Care (p, a)
+205;You see a man whipping his horse because he broke the fence.;Care (p, a)
+206;You see a boy throwing stones at the cows that are in the local meadow.;Care (p, a)
+207;You see a girl shooting birds in a forest repeatedly with a lead gun.;Care (p, a)
+208;You see a woman leaving her dog outside in the rain after it has scrambled the trash.;Care (p, a)
+301;You see a boy putting tacks in another student's chair.;Care (p, h)
+302;You see a woman beating her own son with a strap because he got a bad grade at school;Care (p, h)
+303;You see a teacher hitting a student's hand with a ruler for falling asleep during class.;Care (p, h)
+401;You see a judge taking up a criminal case, even though he is friend with the defendant.;Fairness
+402;You see a student copying a classmate's answer sheet on a final exam.;Fairness
+403;You see an athlete taking a shortcut during a marathon to win.;Fairness
+404;You see an employee lying about how many hours she worked during the week.;Fairness
+405;You see a referee intentionally privileging his favorite team.;Fairness
+406;You see a tenant bribe the real estate agent to be the first to have the apartment painted.;Fairness
+407;You see a soccer player pretending to be heavily injured by a rival player.;Fairness
+408;You see a boy jump the line because his friend is an employee.;Fairness
+409;You see someone cheating during a card game with unfamiliar people;Fairness
+410;You see a politician using tax money to build an extension in his own home.;Fairness
+411;You see a teacher giving a low grade to a student just because he does not like him.;Fairness
+412;You see a woman lying about the total number of days she took on vacation from work.;Fairness
+501;You see a father forcing his son to become a airplane pilot just like him.;Liberty
+502;You see a man forbidding his wife from wearing clothes that he has not yet approved.;Liberty
+503;You see a man telling his girlfriend that she has to convert to his religion.;Liberty
+504;You see a boss pressuring employee to buy the products from his relatives' stores.;Liberty
+505;You see a mother telling her son that she will choose all his friends.;Liberty
+506;You see a parent demanding that his son take over the family restaurant business.;Liberty
+507;You see a pastor prohibiting his congregation to use bright colors at church.;Liberty
+508;You see a mother forcing her daughter to enroll in medical school.;Liberty
+509;You see a man saying to his fiancée that she has to change to his political party.;Liberty
+510;You see on TV a political leader trying to forbid the use of hooded jackets in the country;Liberty
+511;You see a woman pressuring her daughter to become a famous news anchor in the evening paper.;Liberty
+601;You see a girl repeatedly interrupting her teacher while she explains a new concept.;Authority
+602;You see a player publicly yelling with his soccer coach during a decisive match.;Authority
+603;You see an employee trying to underestimate all her boss's ideas in front of others.;Authority
+604;You see a boy turning up the TV volume while his father talks to him about military service.;Authority
+605;You see a group of women talking loudly during a church sermon.;Authority
+606;You see a student claiming that the professor who is giving class is a fool.;Authority
+607;You see a teaching assistant denying what the head professor says in front of his students.;Authority
+608;You see a team member speaking loudly and interrupting the supervisor's speech the team.;Authority
+609;You see a man turning his back and walking away while the boss questions his work.;Authority
+610;You see a trainee disobey a company order to dress professionally and comb his hair.;Authority
+611;You see a man covertly watching sports on his cell phone during a pastor's/priest sermon.;Authority
+612;You see a girl ignoring her father's orders on taking the car after the permitted time.;Authority
+613;You see a famous player ignoring the coach's order to come to the bench during a match.;Authority
+614;You see a teenager getting home late and ignoring the time stipulated by the parents.;Authority
+701;You see a former Brazilian politician saying publicly that he would never buy any Brazilian product.;Loyalty
+702;You see a teacher publicly saying that she hopes another school to win the math contest;Loyalty
+703;You see a man leaving the family business to work for the main competitor.;Loyalty
+704;You see a Brazilian telling foreigner that Brazil is a bad world influence.;Loyalty
+705;You see an employee joking with competitors about the bad results of his own company from last year.;Loyalty
+706;You see the wife of a team coach selling cookies in order to raise money for the opposing team.;Loyalty
+707;You see the class representative (spokesperson) saying on TV that the rival University is better;Loyalty
+708;You see a coach celebrating with the opposing team players who have just won the match.;Loyalty
+709;You see a team Capitan booing his own team during a match at his own university.;Loyalty
+710;You see a Brazilian swimmer celebrating while his partner is being beaten by a Chinese opponent.;Loyalty
+711;You see a mayor saying that the nearby city is a much better city.;Loyalty
+712;You see a man secretly voting against his wife at the local beauty contest.;Loyalty
+713;You see a Brazilian celebrity agreeing with a complaint of a foreign dictator about Brazil.;Loyalty
+714;You see a former secretary of state publicly renounce his Brazilian citizenship.;Loyalty
+715;You see a university president singing the anthem of a rival university at an academic event.;Loyalty
+716;You see a Brazilian ambassador in Argentina joking about the stupidity of Brazilians.;Loyalty
+801;You see a man having sex with a frozen chicken before he cooks it for dinner.;Purity
+802;You see a homosexual in a gay bar offering sex to anyone who buys him a drink.;Purity
+803;You see a man at a bar using his cell phone to watch people having sex with animals.;Purity
+804;You see a drunk old man offering to have oral sex with anyone in the bar.;Purity
+805;You see a man looking in the trash for discarded female underwear.;Purity
+806;You see an employee of a morgue eating a pepperoni pizza over a corpse.;Purity
+807;You see two first-degree cousins getting married in a formal ceremony.;Purity
+808;You see a woman having sex with her deceased husband.;Purity
+809;You see a single man buying a sex doll that looks like his secretary.;Purity
+810;You see a story about an ancient tribe that eats the flesh of its deceased members.;Purity

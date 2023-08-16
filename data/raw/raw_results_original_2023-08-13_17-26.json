@@ -1,0 +1,242 @@
+[
+    [
+        1,
+        {
+            "id": "chatcmpl-7nBuMJOS5c80TM6rKzqDCzONpKG5K",
+            "object": "chat.completion",
+            "created": 1691958202,
+            "model": "gpt-4-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "1. 5, 2. 5, 3. 5, 4. 5, 5. 5, 6. 3, 7. 5, 8. 4, 9. 5, 10. 5, 11. 4, 12. 5, 13. 5, 14. 5, 15. 5, 16. 5, 17. 5, 18. 5, 19. 4, 20. 5, 21. 5, 22. 5, 23. 5, 24. 5, 25. 5, 26. 3, 27. 5, 28. 5, 29. 5, 30. 5, 31. 5, 32. 5, 33. 5, 34. 4, 35. 3, 36. 3, 37. 5, 38. 3, 39. 3, 40. 3, 41. 3, 42. 2, 43. 2, 44. 4, 45. 3, 46. 3, 47. 4, 48. 5, 49. 4, 50. 4, 51. 5, 52. 5, 53. 5, 54. 5, 55. 5, 56. 5, 57. 5, 58. 5, 59. 5, 60. 5, 61. 5, 62. 5, 63. 5, 64. 5, 65. 5, 66. 5, 67. 5, 68. 5, 69. 5, 70. 5."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 1425,
+                "completion_tokens": 419,
+                "total_tokens": 1844
+            }
+        }
+    ],
+    [
+        2,
+        {
+            "id": "chatcmpl-7nBuf2d90EYS2aTdRScxRlomZi97k",
+            "object": "chat.completion",
+            "created": 1691958221,
+            "model": "gpt-4-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "5, 5, 5, 5, 5, 4, 5, 3, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 4, 4, 5, 5, 5, 5, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 3, 3, 3, 3, 5, 4, 4, 5, 3, 3, 3, 3, 4, 4, 5, 3, 4, 5, 3, 4, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 1425,
+                "completion_tokens": 227,
+                "total_tokens": 1652
+            }
+        }
+    ],
+    [
+        3,
+        {
+            "id": "chatcmpl-7nButNBwDUhHzcHonEGDwXOxJq1Uh",
+            "object": "chat.completion",
+            "created": 1691958235,
+            "model": "gpt-4-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "1. 5, 2. 5, 3. 5, 4. 5, 5. 5, 6. 4, 7. 5, 8. 4, 9. 5, 10. 4, 11. 4, 12. 5, 13. 5, 14. 5, 15. 5, 16. 4, 17. 5, 18. 5, 19. 5, 20. 4, 21. 5, 22. 5, 23. 4, 24. 5, 25. 4, 26. 5, 27. 5, 28. 5, 29. 5, 30. 5, 31. 5, 32. 5, 33. 5, 34. 3, 35. 5, 36. 4, 37. 5, 38. 4, 39. 3, 40. 3, 41. 5, 42. 5, 43. 5, 44. 3, 45. 3, 46. 5, 47. 5, 48. 5, 49. 5, 50. 5, 51. 5, 52. 4, 53. 5, 54. 5, 55. 5, 56. 5, 57. 4, 58. 5, 59. 5, 60. 5, 61. 5, 62. 5, 63. 5, 64. 5, 65. 5."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 1425,
+                "completion_tokens": 389,
+                "total_tokens": 1814
+            }
+        }
+    ],
+    [
+        4,
+        {
+            "id": "chatcmpl-7nBvLLZS9ZpDHyB2a9qvzVMn9T3DE",
+            "object": "chat.completion",
+            "created": 1691958263,
+            "model": "gpt-4-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "5, 4, 5, 5, 5, 4, 5, 4, 5, 3, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 4, 5, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 3, 3, 3, 4, 5, 3, 4, 4, 4, 4, 5, 4, 5, 5, 5, 5, 5, 4, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 1425,
+                "completion_tokens": 215,
+                "total_tokens": 1640
+            }
+        }
+    ],
+    [
+        5,
+        {
+            "id": "chatcmpl-7nBvZbP9pdXzptqPNQ1qayt90GxRx",
+            "object": "chat.completion",
+            "created": 1691958277,
+            "model": "gpt-4-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "5, 5, 5, 5, 5, 3, 5, 4, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 3, 4, 3, 4, 5, 5, 5, 5, 5, 5, 4, 5, 4, 3, 3, 3, 2, 2, 2, 3, 2, 3, 3, 3, 2, 5, 5, 5, 5, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 1425,
+                "completion_tokens": 236,
+                "total_tokens": 1661
+            }
+        }
+    ],
+    [
+        6,
+        {
+            "id": "chatcmpl-7nBvstxR9ctBOiz6Poy93SHxo3fij",
+            "object": "chat.completion",
+            "created": 1691958296,
+            "model": "gpt-4-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "5, 5, 5, 5, 5, 4, 5, 4, 5, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 4, 4, 4, 5, 5, 5, 5, 5, 4, 5, 4, 4, 3, 4, 4, 4, 3, 3, 3, 2, 2, 3, 3, 4, 5, 4, 4, 4, 5, 3, 5, 4, 4, 5, 5, 4, 4, 5, 5, 5, 5, 5, 5, 5."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 1425,
+                "completion_tokens": 203,
+                "total_tokens": 1628
+            }
+        }
+    ],
+    [
+        7,
+        {
+            "id": "chatcmpl-7nBw6lQ0P7LVeg11bfuBGnb57SLoA",
+            "object": "chat.completion",
+            "created": 1691958310,
+            "model": "gpt-4-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "1. 5, 2. 5, 3. 5, 4. 5, 5. 5, 6. 4, 7. 5, 8. 5, 9. 5, 10. 4, 11. 4, 12. 5, 13. 5, 14. 5, 15. 5, 16. 5, 17. 5, 18. 5, 19. 5, 20. 5, 21. 4, 22. 5, 23. 5, 24. 5, 25. 4, 26. 3, 27. 4, 28. 5, 29. 5, 30. 5, 31. 5, 32. 5, 33. 5, 34. 5, 35. 5, 36. 3, 37. 5, 38. 4, 39. 3, 40. 4, 41. 4, 42. 4, 43. 4, 44. 4, 45. 4, 46. 5, 47. 5, 48. 5, 49. 5, 50. 5, 51. 5, 52. 5, 53. 5, 54. 5, 55. 5, 56. 5, 57. 5, 58. 5, 59. 5, 60. 5, 61. 5, 62. 5, 63. 5, 64. 5, 65. 5, 66. 5, 67. 5, 68. 5, 69. 5, 70. 5, 71. 5, 72. 5, 73. 5, 74. 5, 75. 5, 76. 5, 77. 5."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 1425,
+                "completion_tokens": 461,
+                "total_tokens": 1886
+            }
+        }
+    ],
+    [
+        8,
+        {
+            "id": "chatcmpl-7nBwf9SAuawJ7A8LPbA6euCSgvuCs",
+            "object": "chat.completion",
+            "created": 1691958345,
+            "model": "gpt-4-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4, 4, 4, 5, 5, 4, 5, 4, 5, 4, 3, 5, 5, 5, 5, 5, 5, 5, 4, 4, 5, 5, 5, 5, 4, 4, 5, 5, 4, 5, 4, 5, 3, 3, 4, 4, 3, 4, 3, 3, 4, 3, 3, 4, 3, 4, 4, 5, 5, 5, 4, 3, 4, 5, 5, 5, 4, 5, 5, 3, 5, 5, 5, 5, 5, 5, 5, 5,\n5, 5, 5, 5, 5, 5, 5, 5, 5."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 1425,
+                "completion_tokens": 229,
+                "total_tokens": 1654
+            }
+        }
+    ],
+    [
+        9,
+        {
+            "id": "chatcmpl-7nBwutsRd0HelKDMGvWUCED3m0uwK",
+            "object": "chat.completion",
+            "created": 1691958360,
+            "model": "gpt-4-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "1. 5, 2. 5, 3. 5, 4. 5, 5. 5, 6. 4, 7. 5, 8. 4, 9. 5, 10. 4, 11. 4, 12. 5, 13. 5, 14. 5, 15. 5, 16. 5, 17. 5, 18. 5, 19. 4, 20. 5, 21. 4, 22. 5, 23. 5, 24. 5, 25. 4, 26. 4, 27. 5, 28. 5, 29. 5, 30. 5, 31. 5, 32. 5, 33. 5, 34. 5, 35. 4, 36. 4, 37. 4, 38. 4, 39. 4, 40. 4, 41. 4, 42. 4, 43. 4, 44. 4, 45. 3, 46. 3, 47. 4, 48. 3, 49. 4, 50. 4, 51. 4, 52. 4, 53. 4, 54. 4, 55. 4, 56. 4, 57. 5, 58. 5, 59. 5, 60. 5, 61. 5, 62. 5, 63. 5."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 1425,
+                "completion_tokens": 377,
+                "total_tokens": 1802
+            }
+        }
+    ],
+    [
+        10,
+        {
+            "id": "chatcmpl-7nBxCsKG7xcy9twXgODCVZ4mtbmNm",
+            "object": "chat.completion",
+            "created": 1691958378,
+            "model": "gpt-4-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "1. 5, 2. 5, 3. 5, 4. 5, 5. 5, 6. 4, 7. 5, 8. 4, 9. 5, 10. 4, 11. 4, 12. 5, 13. 5, 14. 5, 15. 5, 16. 5, 17. 5, 18. 5, 19. 5, 20. 5, 21. 5, 22. 5, 23. 5, 24. 5, 25. 5, 26. 3, 27. 5, 28. 5, 29. 5, 30. 5, 31. 5, 32. 5, 33. 5, 34. 5, 35. 5, 36. 4, 37. 4, 38. 5, 39. 4, 40. 4, 41. 5, 42. 3, 43. 3, 44. 4, 45. 5, 46. 5, 47. 2, 48. 4, 49. 5, 50. 5, 51. 5, 52. 5, 53. 5, 54. 5, 55. 5, 56. 5, 57. 5, 58. 4, 59. 5, 60. 5, 61. 5, 62. 5, 63. 5, 64. 5, 65. 4, 66. 5, 67. 5, 68. 5, 69. 5, 70. 5, 71. 5."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 1425,
+                "completion_tokens": 425,
+                "total_tokens": 1850
+            }
+        }
+    ]
+]
