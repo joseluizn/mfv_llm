@@ -106,3 +106,53 @@ def run_n_experiments(n, model, version="original"):
     # save to csv with timestamp
     df.to_csv(f"data/results_{version}_{model}_{now}.csv", index=False, encoding="utf-8-sig")
     return df
+
+
+def run_single_scenario(vignette, model, **kwargs):
+    msg_hist = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": vignette},
+    ]
+    raw_response = chat(
+        messages=msg_hist,
+        model=model,
+        max_tokens=1024,
+        temperature=1.2,
+        **kwargs,
+    )
+    return raw_response
+
+
+def single_scenario_generation(scenario, model, **kwargs):
+    mfv_code, vignette = scenario
+
+    responses = list()
+    for i in range(108):
+        raw_response = run_single_scenario(
+            vignette=vignette,
+            model=model,
+            **kwargs,
+        )
+        responses.append((i+1, raw_response))
+
+    now = pd.Timestamp.now().strftime('%Y-%m-%d_%H-%M')
+    with open(
+        f"data/raw/raw_results_{mfv_code}_{now}.json",
+        "w",
+    ) as f:
+        json.dump(responses, f)
+
+    gen_answers = list()
+    for i, r in enumerate(responses):
+        answers = process_answer(raw_response)
+        if len(answers) > 1 or len(answers) == 0:
+            print(f"WARNING: Answer {i+1} has {len(answers)} valid answers")
+            continue
+        else:
+            gen_answers.append((i+1, answers[0]))
+    
+    df = pd.DataFrame(gen_answers, columns=["gen_id", "answer"])
+    df["mfv_code"] = mfv_code
+    df.to_csv(f"data/results_single_scenario_answers_{mfv_code}_{now}.csv", index=False)
+    return df
+        
