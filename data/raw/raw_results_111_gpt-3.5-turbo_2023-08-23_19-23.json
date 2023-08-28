@@ -1,0 +1,2594 @@
+[
+    [
+        1,
+        {
+            "id": "chatcmpl-7qqWz9KybIB4AoIgGHYrzAjZMqpjH",
+            "object": "chat.completion",
+            "created": 1692829341,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        2,
+        {
+            "id": "chatcmpl-7qqWzK3AeXU13a9sqHdNw85DesL2r",
+            "object": "chat.completion",
+            "created": 1692829341,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "2. A group of people is spreading false rumors about a colleague at work in order to harm their reputation."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 22,
+                "total_tokens": 239
+            }
+        }
+    ],
+    [
+        3,
+        {
+            "id": "chatcmpl-7qqX1hy3eqSNlAXULHRqUQyVYmJHo",
+            "object": "chat.completion",
+            "created": 1692829343,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        4,
+        {
+            "id": "chatcmpl-7qqX1xojsRQbxrtjJnAO7e0lK1XEC",
+            "object": "chat.completion",
+            "created": 1692829343,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        5,
+        {
+            "id": "chatcmpl-7qqX11fzYtu9JfoWaJGxfYi3cvOOH",
+            "object": "chat.completion",
+            "created": 1692829343,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3. Somewhat wrong"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 5,
+                "total_tokens": 222
+            }
+        }
+    ],
+    [
+        6,
+        {
+            "id": "chatcmpl-7qqX2AiPuSvybBJBMpBw76vOsAatz",
+            "object": "chat.completion",
+            "created": 1692829344,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        7,
+        {
+            "id": "chatcmpl-7qqX2f2jScyE4W8Xgq5wkZoHt2Ocl",
+            "object": "chat.completion",
+            "created": 1692829344,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        8,
+        {
+            "id": "chatcmpl-7qqX3Uczlj8X6GIJH8vWkAsARPtAk",
+            "object": "chat.completion",
+            "created": 1692829345,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        9,
+        {
+            "id": "chatcmpl-7qqX3cbFi8aj9m2NUcCSuPtsxrf0t",
+            "object": "chat.completion",
+            "created": 1692829345,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "2, 3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 4,
+                "total_tokens": 221
+            }
+        }
+    ],
+    [
+        10,
+        {
+            "id": "chatcmpl-7qqX4isg0oeMfNVcFKeUUoT11JHmZ",
+            "object": "chat.completion",
+            "created": 1692829346,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "1. 2"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 4,
+                "total_tokens": 221
+            }
+        }
+    ],
+    [
+        11,
+        {
+            "id": "chatcmpl-7qqX4O39ZimBSxp8RZapjzmiYSwN7",
+            "object": "chat.completion",
+            "created": 1692829346,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        12,
+        {
+            "id": "chatcmpl-7qqX5Bk6ecnpub7NpHvaI0py2F6pa",
+            "object": "chat.completion",
+            "created": 1692829347,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        13,
+        {
+            "id": "chatcmpl-7qqX5LKDYuQaPEvXdddnkEJNqyONI",
+            "object": "chat.completion",
+            "created": 1692829347,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        14,
+        {
+            "id": "chatcmpl-7qqX6ypVCSCZbdjL1M7clHDd46vxR",
+            "object": "chat.completion",
+            "created": 1692829348,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "1. 2"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 4,
+                "total_tokens": 221
+            }
+        }
+    ],
+    [
+        15,
+        {
+            "id": "chatcmpl-7qqX68Q7AjxYZ3iPZ84TmIxTDMIjZ",
+            "object": "chat.completion",
+            "created": 1692829348,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 2,
+                "total_tokens": 219
+            }
+        }
+    ],
+    [
+        16,
+        {
+            "id": "chatcmpl-7qqX74hDkckJh1TRTNorlFAnpSxfJ",
+            "object": "chat.completion",
+            "created": 1692829349,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        17,
+        {
+            "id": "chatcmpl-7qqX7lYLCSlSdMibR3S2AoS9lIadK",
+            "object": "chat.completion",
+            "created": 1692829349,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "1. 3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 4,
+                "total_tokens": 221
+            }
+        }
+    ],
+    [
+        18,
+        {
+            "id": "chatcmpl-7qqX87ZqajRUkY6Z77xfff5QRde4B",
+            "object": "chat.completion",
+            "created": 1692829350,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "2,1"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 3,
+                "total_tokens": 220
+            }
+        }
+    ],
+    [
+        19,
+        {
+            "id": "chatcmpl-7qqX8mAq1ewbfd2Oa0xyYTotweDBI",
+            "object": "chat.completion",
+            "created": 1692829350,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4. Very wrong"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 4,
+                "total_tokens": 221
+            }
+        }
+    ],
+    [
+        20,
+        {
+            "id": "chatcmpl-7qqX9hazfnp5mskM23VuzlWHmvAaT",
+            "object": "chat.completion",
+            "created": 1692829351,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        21,
+        {
+            "id": "chatcmpl-7qqX9RlGZQwUplZLRxON3KuIVud7C",
+            "object": "chat.completion",
+            "created": 1692829351,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        22,
+        {
+            "id": "chatcmpl-7qqXAI1WOEf8kFBlDYeyHf5UcR55F",
+            "object": "chat.completion",
+            "created": 1692829352,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        23,
+        {
+            "id": "chatcmpl-7qqXAsr30Smw3zmk87v3JNMf83dsv",
+            "object": "chat.completion",
+            "created": 1692829352,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "1. 2"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 4,
+                "total_tokens": 221
+            }
+        }
+    ],
+    [
+        24,
+        {
+            "id": "chatcmpl-7qqXBJbjYUz6qM1y7I2VKPOMw4SPC",
+            "object": "chat.completion",
+            "created": 1692829353,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3. Somewhat wrong"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 5,
+                "total_tokens": 222
+            }
+        }
+    ],
+    [
+        25,
+        {
+            "id": "chatcmpl-7qqXBwphhpMuH4ubtcB2hG9CXNoSP",
+            "object": "chat.completion",
+            "created": 1692829353,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        26,
+        {
+            "id": "chatcmpl-7qqXCvcZXgzcH8FnqdVMsCSTuQMkp",
+            "object": "chat.completion",
+            "created": 1692829354,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        27,
+        {
+            "id": "chatcmpl-7qqXDlZOUimMK33aPse8A3omTCUnw",
+            "object": "chat.completion",
+            "created": 1692829355,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "2"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        28,
+        {
+            "id": "chatcmpl-7qqXDWL2FMlw2WMoQtRNuxNZLk2Wd",
+            "object": "chat.completion",
+            "created": 1692829355,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        29,
+        {
+            "id": "chatcmpl-7qqXJzB8LxAu6EiKOexqXP8Y67gur",
+            "object": "chat.completion",
+            "created": 1692829361,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        30,
+        {
+            "id": "chatcmpl-7qqXKJu3fiFA3guhNGuJEL9Lmai39",
+            "object": "chat.completion",
+            "created": 1692829362,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "2, ."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 3,
+                "total_tokens": 220
+            }
+        }
+    ],
+    [
+        31,
+        {
+            "id": "chatcmpl-7qqXKiV4jsrkosvpKtgUDiETHEawk",
+            "object": "chat.completion",
+            "created": 1692829362,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        32,
+        {
+            "id": "chatcmpl-7qqXLKnPjlgBGCrpGwYVzHMT6IgIT",
+            "object": "chat.completion",
+            "created": 1692829363,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        33,
+        {
+            "id": "chatcmpl-7qqXMeW37GsriZD10mm8HJey57PY1",
+            "object": "chat.completion",
+            "created": 1692829364,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        34,
+        {
+            "id": "chatcmpl-7qqXMGJQJ3A7dKxdOGaCnHSfpcU5S",
+            "object": "chat.completion",
+            "created": 1692829364,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        35,
+        {
+            "id": "chatcmpl-7qqXN7fz6qkO9ndhKsEU8pl9LOeD9",
+            "object": "chat.completion",
+            "created": 1692829365,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        36,
+        {
+            "id": "chatcmpl-7qqXNsum8760USdRUy1ZaAxxn1qLH",
+            "object": "chat.completion",
+            "created": 1692829365,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        37,
+        {
+            "id": "chatcmpl-7qqXOFy9S5PWQZ0p5Vn3pgNHNKRVJ",
+            "object": "chat.completion",
+            "created": 1692829366,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "2,3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 3,
+                "total_tokens": 220
+            }
+        }
+    ],
+    [
+        38,
+        {
+            "id": "chatcmpl-7qqXO6SXbzHbRoPZ7kRORqPMOu8DV",
+            "object": "chat.completion",
+            "created": 1692829366,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        39,
+        {
+            "id": "chatcmpl-7qqXPosUHfz7fvJDxRSN4g31hBmUi",
+            "object": "chat.completion",
+            "created": 1692829367,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        40,
+        {
+            "id": "chatcmpl-7qqXP5lUSfMkrn5rJRfcTYlqywhnJ",
+            "object": "chat.completion",
+            "created": 1692829367,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        41,
+        {
+            "id": "chatcmpl-7qqXPvVm3N6ZgaWk6rCEA5P4aS8LF",
+            "object": "chat.completion",
+            "created": 1692829367,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "1. 3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 4,
+                "total_tokens": 221
+            }
+        }
+    ],
+    [
+        42,
+        {
+            "id": "chatcmpl-7qqXQaObTTSFQu894VMpvYalnL8ov",
+            "object": "chat.completion",
+            "created": 1692829368,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        43,
+        {
+            "id": "chatcmpl-7qqXRBFthi6bfzuqyDF4fpt7LiGUU",
+            "object": "chat.completion",
+            "created": 1692829369,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        44,
+        {
+            "id": "chatcmpl-7qqXRTAvT52X5lryV8b7CLhV49Xvw",
+            "object": "chat.completion",
+            "created": 1692829369,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        45,
+        {
+            "id": "chatcmpl-7qqXSDZHSjt2z22byqPM17ok9mHD9",
+            "object": "chat.completion",
+            "created": 1692829370,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3. Somewhat wrong"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 5,
+                "total_tokens": 222
+            }
+        }
+    ],
+    [
+        46,
+        {
+            "id": "chatcmpl-7qqXbu7CfPXfUxpuODmj9zwzWAq0Y",
+            "object": "chat.completion",
+            "created": 1692829379,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        47,
+        {
+            "id": "chatcmpl-7qqXckeLPgCeN1LRZxWpVLgNwExAd",
+            "object": "chat.completion",
+            "created": 1692829380,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        48,
+        {
+            "id": "chatcmpl-7qqXcqW3dQkxk7LJkdu2jBhPiImQ9",
+            "object": "chat.completion",
+            "created": 1692829380,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        49,
+        {
+            "id": "chatcmpl-7qqXdQPtIq1mqxKmupN3VTuxyWANN",
+            "object": "chat.completion",
+            "created": 1692829381,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        50,
+        {
+            "id": "chatcmpl-7qqXdOpBSHS4iFOvGpkqLKx80YwVA",
+            "object": "chat.completion",
+            "created": 1692829381,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        51,
+        {
+            "id": "chatcmpl-7qqXeVHZdezb81Hq1inRuqxjsXO2J",
+            "object": "chat.completion",
+            "created": 1692829382,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        52,
+        {
+            "id": "chatcmpl-7qqXeGO9palmZHEWUW4pTN3s5iNXj",
+            "object": "chat.completion",
+            "created": 1692829382,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        53,
+        {
+            "id": "chatcmpl-7qqXezJhX3bMqcbwfDRMNlEko31EG",
+            "object": "chat.completion",
+            "created": 1692829382,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        54,
+        {
+            "id": "chatcmpl-7qqXfB5Ty8ghmxGmcDIQgFMSVQRWm",
+            "object": "chat.completion",
+            "created": 1692829383,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4. Very wrong"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 4,
+                "total_tokens": 221
+            }
+        }
+    ],
+    [
+        55,
+        {
+            "id": "chatcmpl-7qqXg5XMdF8JV1tecU9f7tYpVLvAA",
+            "object": "chat.completion",
+            "created": 1692829384,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        56,
+        {
+            "id": "chatcmpl-7qqXg32RCgDkskPNIB8KaIH9JqcDt",
+            "object": "chat.completion",
+            "created": 1692829384,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        57,
+        {
+            "id": "chatcmpl-7qqXhRp0XxscHoNMgnu5ieATs3XcY",
+            "object": "chat.completion",
+            "created": 1692829385,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        58,
+        {
+            "id": "chatcmpl-7qqXhrZZ47wM9i7LlRbMohprN5Fdt",
+            "object": "chat.completion",
+            "created": 1692829385,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        59,
+        {
+            "id": "chatcmpl-7qqXh0snA5dGCfmzh2T8gRyHNuj3v",
+            "object": "chat.completion",
+            "created": 1692829385,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        60,
+        {
+            "id": "chatcmpl-7qqXi8BawJWUqICczRwnqnuCE0WXO",
+            "object": "chat.completion",
+            "created": 1692829386,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "1. 3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 4,
+                "total_tokens": 221
+            }
+        }
+    ],
+    [
+        61,
+        {
+            "id": "chatcmpl-7qqXirRH4MyG9VgiHIX5EpDyzYnnj",
+            "object": "chat.completion",
+            "created": 1692829386,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        62,
+        {
+            "id": "chatcmpl-7qqXjHxu1UOUl6PVHTRIZCf1hPOnl",
+            "object": "chat.completion",
+            "created": 1692829387,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        63,
+        {
+            "id": "chatcmpl-7qqXjI3YipZpMPh8ddWT7M2eEt7YY",
+            "object": "chat.completion",
+            "created": 1692829387,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "2. A group of friends decide to play a prank on a classmate, pretending to exclude them from a group project."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 25,
+                "total_tokens": 242
+            }
+        }
+    ],
+    [
+        64,
+        {
+            "id": "chatcmpl-7qqXlHX90ehzJ9LZiAySaTfcmcbEb",
+            "object": "chat.completion",
+            "created": 1692829389,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3. Somewhat wrong"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 5,
+                "total_tokens": 222
+            }
+        }
+    ],
+    [
+        65,
+        {
+            "id": "chatcmpl-7qqXlfhLM9T9QZWDHQEyxrLlUD7Mx",
+            "object": "chat.completion",
+            "created": 1692829389,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        66,
+        {
+            "id": "chatcmpl-7qqXmVVdgjUKHaNHAVFNzG2qYwjU9",
+            "object": "chat.completion",
+            "created": 1692829390,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        67,
+        {
+            "id": "chatcmpl-7qqXmF1KMN46TIQVRFAyO1Ziz1TUe",
+            "object": "chat.completion",
+            "created": 1692829390,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        68,
+        {
+            "id": "chatcmpl-7qqXnI2qGpVOyB068W9lyWH0Yrn9X",
+            "object": "chat.completion",
+            "created": 1692829391,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        69,
+        {
+            "id": "chatcmpl-7qqXn7wIwwASe82CGeOvwJPcmqXDw",
+            "object": "chat.completion",
+            "created": 1692829391,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        70,
+        {
+            "id": "chatcmpl-7qqXneSvGnw5i98zItOFAvJJ8RV05",
+            "object": "chat.completion",
+            "created": 1692829391,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        71,
+        {
+            "id": "chatcmpl-7qqXoCvLdc0J454PWOIFKvIHKhrLx",
+            "object": "chat.completion",
+            "created": 1692829392,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        72,
+        {
+            "id": "chatcmpl-7qqXoj6IMDyNkecx7XicW5qzaBPzR",
+            "object": "chat.completion",
+            "created": 1692829392,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "5. Extremely wrong"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 4,
+                "total_tokens": 221
+            }
+        }
+    ],
+    [
+        73,
+        {
+            "id": "chatcmpl-7qqXp71v4ywZKcUZ8uAUbn69MiQl6",
+            "object": "chat.completion",
+            "created": 1692829393,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        74,
+        {
+            "id": "chatcmpl-7qqXy3jZdthvVvIYz2WZvRTIZbog9",
+            "object": "chat.completion",
+            "created": 1692829402,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "2. A group of kids teasing and making fun of a child with special needs."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 17,
+                "total_tokens": 234
+            }
+        }
+    ],
+    [
+        75,
+        {
+            "id": "chatcmpl-7qqXz30oOSCh3xkLQ4bztWUQ9bWxa",
+            "object": "chat.completion",
+            "created": 1692829403,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        76,
+        {
+            "id": "chatcmpl-7qqXzIPMGxBmAxYLQsdA6MJ7v2xXn",
+            "object": "chat.completion",
+            "created": 1692829403,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3. Somewhat wrong"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 5,
+                "total_tokens": 222
+            }
+        }
+    ],
+    [
+        77,
+        {
+            "id": "chatcmpl-7qqY0beQkUQGy8CTvmuyZcOjbcEq7",
+            "object": "chat.completion",
+            "created": 1692829404,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        78,
+        {
+            "id": "chatcmpl-7qqY0Y6fx0iVPM93YPze60wZPv3Ro",
+            "object": "chat.completion",
+            "created": 1692829404,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        79,
+        {
+            "id": "chatcmpl-7qqY10XAVGpdHubXkgmCPL4jBfLow",
+            "object": "chat.completion",
+            "created": 1692829405,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "2. A group of friends spreads a rumor about a classmate that leads to their social isolation."
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 20,
+                "total_tokens": 237
+            }
+        }
+    ],
+    [
+        80,
+        {
+            "id": "chatcmpl-7qqY2TwQTtSpHNdm3NtKG0BVihk5v",
+            "object": "chat.completion",
+            "created": 1692829406,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4. Very wrong"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 4,
+                "total_tokens": 221
+            }
+        }
+    ],
+    [
+        81,
+        {
+            "id": "chatcmpl-7qqY2LJhBnQaxPlBAyz0bUfHfKTx3",
+            "object": "chat.completion",
+            "created": 1692829406,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        82,
+        {
+            "id": "chatcmpl-7qqY3K7cbD6OlLqKK3jhhnHEklkmh",
+            "object": "chat.completion",
+            "created": 1692829407,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        83,
+        {
+            "id": "chatcmpl-7qqY3d4F5YUS5BUu8GXB1TmZFMa4a",
+            "object": "chat.completion",
+            "created": 1692829407,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        84,
+        {
+            "id": "chatcmpl-7qqY48vyE4PGoX5nWNu3TOiTLCHRG",
+            "object": "chat.completion",
+            "created": 1692829408,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        85,
+        {
+            "id": "chatcmpl-7qqY40pc4jBKuondwdJQPYQdzRyBM",
+            "object": "chat.completion",
+            "created": 1692829408,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        86,
+        {
+            "id": "chatcmpl-7qqY5tNXnsrbe6aR87Tnyxho79xIT",
+            "object": "chat.completion",
+            "created": 1692829409,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        87,
+        {
+            "id": "chatcmpl-7qqY50L8bwRwSSjqISWY2IQ7ynk9a",
+            "object": "chat.completion",
+            "created": 1692829409,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        88,
+        {
+            "id": "chatcmpl-7qqY6hPZKQvC8JRfMQLEqD9GVMJv8",
+            "object": "chat.completion",
+            "created": 1692829410,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "1. 3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 4,
+                "total_tokens": 221
+            }
+        }
+    ],
+    [
+        89,
+        {
+            "id": "chatcmpl-7qqY6vzLX4J52NrkPt9HSfsOdrMGM",
+            "object": "chat.completion",
+            "created": 1692829410,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        90,
+        {
+            "id": "chatcmpl-7qqY72FdY874IQa4LXXuE0Ew6gg7m",
+            "object": "chat.completion",
+            "created": 1692829411,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        91,
+        {
+            "id": "chatcmpl-7qqY7duHNZaceJAuofULMjpntBcEw",
+            "object": "chat.completion",
+            "created": 1692829411,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "1. 3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 4,
+                "total_tokens": 221
+            }
+        }
+    ],
+    [
+        92,
+        {
+            "id": "chatcmpl-7qqY8ABfGXTsqGLgtw16dV03yWvNR",
+            "object": "chat.completion",
+            "created": 1692829412,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        93,
+        {
+            "id": "chatcmpl-7qqY9u6GaaIsKkM4Bl6NKhOfRTTl8",
+            "object": "chat.completion",
+            "created": 1692829413,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "5"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        94,
+        {
+            "id": "chatcmpl-7qqY9qRo9F1TBVhjmVWCQ3uv3KkAm",
+            "object": "chat.completion",
+            "created": 1692829413,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        95,
+        {
+            "id": "chatcmpl-7qqYArIZpEROVVfzeE8QApgWdecpT",
+            "object": "chat.completion",
+            "created": 1692829414,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        96,
+        {
+            "id": "chatcmpl-7qqYA8qfmlQiivtwji9kRetZmjxDJ",
+            "object": "chat.completion",
+            "created": 1692829414,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        97,
+        {
+            "id": "chatcmpl-7qqYCei29LFxT4JACY6WfsJNP9DOA",
+            "object": "chat.completion",
+            "created": 1692829416,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        98,
+        {
+            "id": "chatcmpl-7qqYCgkge4LRdc5SKXprlq8wSooZW",
+            "object": "chat.completion",
+            "created": 1692829416,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        99,
+        {
+            "id": "chatcmpl-7qqYDQPVIrX7CZ8sMn9unVYa3VsXL",
+            "object": "chat.completion",
+            "created": 1692829417,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "1. 3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 4,
+                "total_tokens": 221
+            }
+        }
+    ],
+    [
+        100,
+        {
+            "id": "chatcmpl-7qqYD2IA0yLCvkD4f40Lzm4gnoIRt",
+            "object": "chat.completion",
+            "created": 1692829417,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        101,
+        {
+            "id": "chatcmpl-7qqYE8lLTzUBvqzSoWDwGsqEgAcAL",
+            "object": "chat.completion",
+            "created": 1692829418,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        102,
+        {
+            "id": "chatcmpl-7qqYEF8espCZUumohs19YjttIfP6X",
+            "object": "chat.completion",
+            "created": 1692829418,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        103,
+        {
+            "id": "chatcmpl-7qqYFgCfoIqjbDyy0KheHEVhsuARM",
+            "object": "chat.completion",
+            "created": 1692829419,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        104,
+        {
+            "id": "chatcmpl-7qqYFR42Irgc0udfk55flEk4FrQ65",
+            "object": "chat.completion",
+            "created": 1692829419,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        105,
+        {
+            "id": "chatcmpl-7qqYPcKlr4qMiDi8xod7qwGer8IDo",
+            "object": "chat.completion",
+            "created": 1692829429,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ],
+    [
+        106,
+        {
+            "id": "chatcmpl-7qqYQ0sEUezpBAuXYxhup5m5Ygdya",
+            "object": "chat.completion",
+            "created": 1692829430,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3. Somewhat wrong"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 5,
+                "total_tokens": 222
+            }
+        }
+    ],
+    [
+        107,
+        {
+            "id": "chatcmpl-7qqYQovitdKaaBXgFBMhwEw0zH9UD",
+            "object": "chat.completion",
+            "created": 1692829430,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "4. Very wrong"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 4,
+                "total_tokens": 221
+            }
+        }
+    ],
+    [
+        108,
+        {
+            "id": "chatcmpl-7qqYRzL2kMau29vM0G8JAhIQJqfy5",
+            "object": "chat.completion",
+            "created": 1692829431,
+            "model": "gpt-3.5-turbo-0613",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "3"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 217,
+                "completion_tokens": 1,
+                "total_tokens": 218
+            }
+        }
+    ]
+]

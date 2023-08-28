@@ -18,6 +18,11 @@ DF_PT = pd.read_excel(rep / "vignettes_pt.xlsx", sheet_name=0)
 validated_codes = DF_PT["MFV Code"].to_list()
 foundations = DF_PT["Foundation"].values
 
+original_validated = pd.read_html("https://link.springer.com/article/10.3758/s13428-014-0551-2/tables/6")[0]
+original_validated["mfv_code"] = [101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,201,202,203,204,205,206,207,208,301,302,303,401,402,403,404,405,406,407,408,409,410,411,412,501,502,503,504,505,506,507,508,509,510,511,601,602,603,604,605,606,607,608,609,610,611,612,613,614,701,702,703,704,705,706,707,708,709,710,711,712,713,714,715,716,801,802,803,804,805,806,807,808,809,810]
+# query for validated codes
+original_validated.query("mfv_code in @validated_codes", inplace=True)
+
 vignettes_pt = "\n\n".join(
     (DF_PT["MFV Scenario"]).to_list()
 )
@@ -32,9 +37,18 @@ vignettes_en = "\n\n".join(
     (DF_ORIGINAL["MFV Scenario"]).to_list()
 )
 
+original_en_vignettes = "\n\n".join(
+    original_validated["Scenario"].to_list()
+)
+
+
 en_numbered_vignetes = "\n".join(
     ((DF_ORIGINAL.index+1).astype(str) + ". " +  DF_ORIGINAL["MFV Scenario"]).to_list()
 )
+
+# en_numbered_original_vignetes = "\n".join(
+#     ((original_validated.index+1).astype(str) + ". " +  original_validated["Scenario"]).to_list()
+# )
 
 
 @retry(wait=wait_random_exponential(min=10, max=60), stop=stop_after_attempt(6))
@@ -45,6 +59,9 @@ def chat(**kwargs):
 def process_answer(raw_response):
     main_selection = raw_response["choices"][0]["message"]["content"]
     answers = re.findall(r"\b\d+\.\s?(\d+)", main_selection)
+    if len(answers) == 0:
+        # this case should be single scenario generation
+        answers = re.findall(r"^\b\d\b$", main_selection)
     answers = [int(i) for i in answers]
     return answers
 
@@ -97,9 +114,9 @@ def run_n_experiments(n, model, version="original"):
     results = list()
     for i, r in results_raw:
         answers = process_answer(r)
-        if len(answers) != 68:
+        if len(answers) != 68 and len(answers) != 1:
             print(f"WARNING: Answer {i} has {len(answers)} valid answers")
-            # print(answers)
+            print(answers)
             continue
         results.append(answers)
     df = pd.DataFrame(results, columns=validated_codes)
@@ -113,6 +130,7 @@ def run_single_scenario(vignette, model, **kwargs):
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": vignette},
     ]
+    # print(msg_hist)
     raw_response = chat(
         messages=msg_hist,
         model=model,
@@ -123,13 +141,13 @@ def run_single_scenario(vignette, model, **kwargs):
     return raw_response
 
 
-def single_scenario_generation(scenario, model, **kwargs):
-    mfv_code, vignette = scenario
+def single_scenario_generation(scenario, model, n_experiments=108, **kwargs):
+    vignette, mfv_code = scenario
 
     responses = list()
-    for i in range(108):
+    for i in range(n_experiments):
         raw_response = run_single_scenario(
-            vignette=vignette,
+            vignette="1. "+ vignette,
             model=model,
             **kwargs,
         )
@@ -137,7 +155,7 @@ def single_scenario_generation(scenario, model, **kwargs):
 
     now = pd.Timestamp.now().strftime('%Y-%m-%d_%H-%M')
     with open(
-        f"data/raw/raw_results_{mfv_code}_{now}.json",
+        f"data/raw/raw_results_{mfv_code}_{model}_{now}.json",
         "w",
     ) as f:
         json.dump(responses, f)
@@ -150,9 +168,11 @@ def single_scenario_generation(scenario, model, **kwargs):
             continue
         else:
             gen_answers.append((i+1, answers[0]))
-    
+
     df = pd.DataFrame(gen_answers, columns=["gen_id", "answer"])
+
     df["mfv_code"] = mfv_code
-    df.to_csv(f"data/results_single_scenario_answers_{mfv_code}_{now}.csv", index=False)
+    df["model"] = model
+    df.to_csv(f"data/results_scenario_{mfv_code}_{model}_{now}.csv", index=False)
     return df
-        
+
