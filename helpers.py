@@ -10,7 +10,7 @@ from tenacity import (
     wait_random_exponential,
 )  # for exponentia
 
-from prompts import system_prompt, alternative_system
+from prompts import system_prompt, alternative_system, simple_system, pre_mfv
 
 rep = Path(".") / "mfv material"
 
@@ -27,28 +27,23 @@ vignettes_pt = "\n\n".join(
     (DF_PT["MFV Scenario"]).to_list()
 )
 
-DF_ORIGINAL = pd.read_csv(
+DF_BACK_TRANSLATION = pd.read_csv(
     rep / "validated_replication_en.csv",
     sep=";",
     encoding="latin1",
 )
 
 vignettes_en = "\n\n".join(
-    (DF_ORIGINAL["MFV Scenario"]).to_list()
+    (DF_BACK_TRANSLATION["MFV Scenario"]).to_list()
 )
 
-original_en_vignettes = "\n\n".join(
-    original_validated["Scenario"].to_list()
+original_numbered = "\n".join(
+    ((original_validated.reset_index().index+1).astype(str) + ". " + original_validated["Scenario"]).to_list()
 )
-
 
 en_numbered_vignetes = "\n".join(
-    ((DF_ORIGINAL.index+1).astype(str) + ". " +  DF_ORIGINAL["MFV Scenario"]).to_list()
+    ((DF_BACK_TRANSLATION.index+1).astype(str) + ". " + DF_BACK_TRANSLATION["MFV Scenario"]).to_list()
 )
-
-# en_numbered_original_vignetes = "\n".join(
-#     ((original_validated.index+1).astype(str) + ". " +  original_validated["Scenario"]).to_list()
-# )
 
 
 @retry(wait=wait_random_exponential(min=10, max=60), stop=stop_after_attempt(6))
@@ -176,3 +171,41 @@ def single_scenario_generation(scenario, model, n_experiments=108, **kwargs):
     df.to_csv(f"data/results_scenario_{mfv_code}_{model}_{now}.csv", index=False)
     return df
 
+
+def run_random_order(n, model, version="backtrans", **kwargs):
+    answers = list()
+    if version == "backtrans":
+        df_scenarios = original_validated
+    for i in range(n):
+        shuffled_scenarios = df_scenarios.sample(frac=1)
+        shuffled_scenarios.reset_index(drop=True, inplace=True)
+        scenario_order = shuffled_scenarios["mfv_code"].to_list()
+        numbered_scenarios = "\n".join(
+            ((shuffled_scenarios.index+1).astype(str) + ". " +  shuffled_scenarios["Scenario"]).to_list()
+        )
+        raw_answer = mfv_experiment(model, system_prompt, numbered_scenarios, **kwargs)
+        answers.append({"response": raw_answer, "scenario_order": scenario_order})
+    now = pd.Timestamp.now().strftime('%Y-%m-%d_%H-%M')
+    p = Path(f"data/raw/random_order")
+    p.mkdir(exist_ok=True)
+    with open(
+        p / f"raw_results_{model}_{now}.json",
+        "w",
+    ) as f:
+        json.dump(answers, f)
+
+    results = list()
+    for i, a in enumerate(answers):
+        mfv_answers = process_answer(a["response"])
+        if len(mfv_answers) != 68 and len(mfv_answers) != 1:
+            print(f"WARNING: Answer {i} has {len(mfv_answers)} valid answers")
+            print(mfv_answers)
+            continue
+        _df = pd.DataFrame(data=[mfv_answers], columns=a["scenario_order"])
+        results.append(_df)
+    df = pd.concat(results)
+    df = df.reindex(sorted(df.columns), axis=1)
+    p = Path(f"data/random_order")
+    p.mkdir(exist_ok=True)
+    df.to_csv(p/"/results_{model}_{now}.csv", index=False, encoding="utf-8-sig")
+    return df
