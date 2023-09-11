@@ -1,0 +1,37 @@
+﻿scale,foundation,condition,alpha,model
+MFQ,Care,overall,0.4877060109872523,gpt-3.5-turbo
+MFQ,Care,before,0.5216182619505032,gpt-3.5-turbo
+MFQ,Care,after,0.47236119585112857,gpt-3.5-turbo
+MFQ,Fairness,overall,0.48617440295158776,gpt-3.5-turbo
+MFQ,Fairness,before,0.23681632653061227,gpt-3.5-turbo
+MFQ,Fairness,after,0.542077505159367,gpt-3.5-turbo
+MFQ,Loyalty,overall,0.422390931381061,gpt-3.5-turbo
+MFQ,Loyalty,before,0.27404991491775393,gpt-3.5-turbo
+MFQ,Loyalty,after,0.49899639096257487,gpt-3.5-turbo
+MFQ,Authority,overall,0.3424177462950878,gpt-3.5-turbo
+MFQ,Authority,before,0.3663433559650821,gpt-3.5-turbo
+MFQ,Authority,after,0.3422494974076819,gpt-3.5-turbo
+MFQ,Sanctity,overall,0.5049998429697563,gpt-3.5-turbo
+MFQ,Sanctity,before,0.4340952661849286,gpt-3.5-turbo
+MFQ,Sanctity,after,0.5903218743157432,gpt-3.5-turbo
+MFV,Care (E),overall,0.832471581613244,gpt-3.5-turbo
+MFV,Care (E),before,0.7421808750109193,gpt-3.5-turbo
+MFV,Care (E),after,0.9055607220243466,gpt-3.5-turbo
+MFV,Care (P),overall,0.8531155694122498,gpt-3.5-turbo
+MFV,Care (P),before,0.9010384235009707,gpt-3.5-turbo
+MFV,Care (P),after,0.7851285936494314,gpt-3.5-turbo
+MFV,Fairness,overall,0.8136157743870667,gpt-3.5-turbo
+MFV,Fairness,before,0.8234856647615478,gpt-3.5-turbo
+MFV,Fairness,after,0.7981196501877893,gpt-3.5-turbo
+MFV,Liberty,overall,0.9258053000167106,gpt-3.5-turbo
+MFV,Liberty,before,0.941376430675167,gpt-3.5-turbo
+MFV,Liberty,after,0.888562244301578,gpt-3.5-turbo
+MFV,Authority,overall,0.8822714256880221,gpt-3.5-turbo
+MFV,Authority,before,0.8675798090358471,gpt-3.5-turbo
+MFV,Authority,after,0.8904935224832292,gpt-3.5-turbo
+MFV,Loyalty,overall,0.9519829746547509,gpt-3.5-turbo
+MFV,Loyalty,before,0.9557854753584291,gpt-3.5-turbo
+MFV,Loyalty,after,0.9357024899736205,gpt-3.5-turbo
+MFV,Sanctity,overall,0.8706017249175062,gpt-3.5-turbo
+MFV,Sanctity,before,0.9097909790979098,gpt-3.5-turbo
+MFV,Sanctity,after,0.7638373444294497,gpt-3.5-turbo

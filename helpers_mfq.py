@@ -61,6 +61,44 @@ Please read the following sentences and indicate your agreement or disagreement:
 32. Chastity is an important and valuable virtue.
 """
 
+questions1_item_key = [
+    ("emotionally", "harm"),
+    ("treated", "fairness"),
+    ("lovecountry", "ingroup"),
+    ("respect", "authority"),
+    ("decency", "purity"),
+    ("math", None),
+    ("weak", "harm"),
+    ("unfairly", "fairness"),
+    ("betray", "ingroup"),
+    ("traditions", "authority"),
+    ("disgusting", "purity"),
+    ("cruel", "harm"),
+    ("rights", "fairness"),
+    ("loyalty", "ingroup"),
+    ("chaos", "authority"),
+    ("god", "purity"),
+]
+
+questions2_item_key = [
+    ("compassion", "harm"),
+    ("fairly", "fairness"),
+    ("history", "ingroup"),
+    ("kidrespect", "authority"),
+    ("harmlessdg", "purity"),
+    ("good", None),
+    ("animal", "harm"),
+    ("justice", "fairness"),
+    ("family", "ingroup"),
+    ("sexroles", "authority"),
+    ("unnatural", "purity"),
+    ("kill", "harm"),
+    ("rich", "fairness"),
+    ("team", "ingroup"),
+    ("soldier", "authority"),
+    ("chastity", "purity"),
+]
+
 
 def mfq_experiment(model, msg_hist, **kwargs):
     msg_hist.append(
@@ -151,3 +189,48 @@ def generate_mfq_before_after(model, n):
     with open(p / f"after_{model}_{now}.json", "w") as f:
         json.dump(raws_after, f)
     return raws_before, raws_after
+
+
+def process_mfq(raws_before, raws_after, model):
+    from pathlib import Path
+    from helpers import validated_codes, process_answer
+    # processing answers for each generation
+    processed_before = list()
+    for i, raws in enumerate(raws_before):
+        mfq1, mfq2, mfv = map(process_answer, raws)
+        if len(mfq1) != 16 or len(mfq2) != 16:
+            print(f"Skipping {i + 1}: MFQ Part 1 has {len(mfq1)} answers and Part 2 has {len(mfq2)} answers.")
+            continue
+        elif len(mfv) != 68:
+            print(f"Skipping {i + 1}: MFV has {len(mfv)} answers.")
+            continue
+        _row = [i + 1, "before"]
+        _row.extend(mfq1)
+        _row.extend(mfq2)
+        _row.extend(mfv)
+        processed_before.append(_row)
+
+    processed_after = list()
+    for i, raws in enumerate(raws_after):
+        mfq1, mfq2, mfv = map(process_answer, raws)
+        if len(mfq1) != 16 or len(mfq2) != 16:
+            print(f"Skipping {i + 1}: MFQ Part 1 has {len(mfq1)} answers and Part 2 has {len(mfq2)} answers.")
+            continue
+        elif len(mfv) != 68:
+            print(f"Skipping {i + 1}: MFV has {len(mfv)} answers.")
+            continue
+        _row = [i + 1, "after"]
+        _row.extend(mfq1)
+        _row.extend(mfq2)
+        _row.extend(mfv)
+        processed_after.append(_row)
+    
+    df = pd.DataFrame(
+        processed_before + processed_after,
+        columns=["id", "condition"] + [x[0] for x in questions1_item_key] + [x[0] for x in questions2_item_key] + validated_codes
+    )
+    p = Path("data")/"mfq"
+    p.mkdir(parents=True, exist_ok=True)
+    now = pd.Timestamp.now().strftime("%Y-%m-%d_%H-%M-%S")
+    df.to_csv(p/f"mfq_experiment_{model}_{now}.csv", index=False)
+    return df

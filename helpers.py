@@ -51,6 +51,13 @@ def chat(**kwargs):
     return openai.ChatCompletion.create(**kwargs)
 
 
+def process_study1(raw_response):
+    main_selection = raw_response["choices"][0]["message"]["content"]
+    answers = re.findall(r"\b\d+\.\s?([a-gA-G])", main_selection)
+    answers = [i.lower() for i in answers]
+    return answers
+
+
 def process_answer(raw_response):
     main_selection = raw_response["choices"][0]["message"]["content"]
     answers = re.findall(r"\b\d+\.\s?(\d+)", main_selection)
@@ -207,5 +214,5 @@ def run_random_order(n, model, version="backtrans", **kwargs):
     df = df.reindex(sorted(df.columns), axis=1)
     p = Path(f"data/random_order")
     p.mkdir(exist_ok=True)
-    df.to_csv(p/"/results_{model}_{now}.csv", index=False, encoding="utf-8-sig")
+    df.to_csv(p/f"results_{model}_{now}.csv", index=False, encoding="utf-8-sig")
     return df

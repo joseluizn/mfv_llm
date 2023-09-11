@@ -2,10 +2,10 @@ import pandas as pd
 from factor_analyzer import FactorAnalyzer
 from factor_analyzer.factor_analyzer import calculate_kmo
 
-from helpers import vignettes_en, foundations, validated_codes
+from helpers import vignettes_en, foundations, validated_codes, original_validated
 
 
-def run_factor_analysis(df, n_factors=7, method="ml", return_model=False):
+def run_factor_analysis(df, n_factors=7, method="ml", return_model=False, vignettes="backtranslated"):
     # identifying columns with no variation
     cae = df.nunique()[df.nunique() == 1].index.to_list()
     # convert to int
@@ -42,11 +42,15 @@ def run_factor_analysis(df, n_factors=7, method="ml", return_model=False):
             "Factor 7",
         ],
     )
+    if vignettes == "backtranslated":
+        v = vignettes_en.split("\n\n")
+    elif vignettes == "original":
+        v = original_validated["Scenario"]
 
     info_df = pd.DataFrame(
         {
             "MFV Code": validated_codes,
-            "MFV Scenario": vignettes_en.split("\n\n"),
+            "MFV Scenario": v,
             "Foundation": foundations,
         }
     )
@@ -56,7 +60,7 @@ def run_factor_analysis(df, n_factors=7, method="ml", return_model=False):
         inplace=True,
     )
 
-    factor_df = pd.concat([info_df, factor_df], axis=1)
+    factor_df = pd.concat([info_df.reset_index(drop=True), factor_df.reset_index(drop=True)], axis=1)
     if return_model is True:
         return factor_df, exploratory_fa
     return factor_df
