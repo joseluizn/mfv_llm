@@ -15,7 +15,7 @@ from getpass import getpass
 
 openai_client = openai.OpenAI(api_key=getpass("Enter your OpenAI API key: "))
 
-max_tokens = 600
+max_tokens = 1024
 
 
 def sanitize_llama2(messages):
@@ -179,7 +179,7 @@ def call_gpt4(messages, client=openai_client, **kwargs):
     return (
         client.chat.completions.create(
             messages=messages,
-            model="gpt-4-0314",
+            model="gpt-4-0613",
             temperature=1.2,
             max_tokens=max_tokens,
             **kwargs,
