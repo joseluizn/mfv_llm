@@ -61,26 +61,6 @@ def sanitize_claude2(messages):
     return final_prompt + "Assistant: "
 
 
-def sanitize_google(messages):
-    # find the system message
-    for msg_dict in messages:
-        role = msg_dict["role"]
-        if role == "system":
-            system_message = msg_dict["content"]
-            break
-
-    new_messages = []
-
-    for msg_dict in messages:
-        role = msg_dict["role"]
-        if role == "user":
-            new_messages.append({"author": "0", "content": msg_dict["content"]})
-        elif role == "assistant":
-            new_messages.append({"author": "1", "content": msg_dict["content"]})
-
-    return system_message, new_messages
-
-
 def sanitize_gemini(messages):
     # find the system message
     for msg_dict in messages:
@@ -187,20 +167,6 @@ def call_gpt4(messages, client=openai_client, **kwargs):
         .choices[0]
         .message.content
     )
-
-
-def call_palm(prompt, **kwargs):
-    context, messages = sanitize_google(prompt)
-
-    response = genai.chat(
-        context=context,
-        messages=messages,
-        model="models/chat-bison-001",
-        temperature=0.1,
-        **kwargs,
-    )
-
-    return response.last
 
 
 def call_gemini(prompt, **kwargs):
