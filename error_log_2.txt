@@ -1,0 +1,3 @@
+Error on iteration 25 of 41. ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Error on iteration 37 of 41. The `response.text` quick accessor only works for simple (single-`Part`) text responses. This response is not simple text.Use the `result.parts` accessor or the full `result.candidates[index].content.parts` lookup instead.
+Error on iteration 1 of 2. The `response.text` quick accessor only works for simple (single-`Part`) text responses. This response is not simple text.Use the `result.parts` accessor or the full `result.candidates[index].content.parts` lookup instead.

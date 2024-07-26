@@ -155,11 +155,11 @@ def call_claude2_1(prompt):
 
 
 @retry(wait=wait_random_exponential(min=10, max=30), stop=stop_after_attempt(4))
-def call_gpt4(messages, client=openai_client, **kwargs):
+def call_gpt4(messages, client=openai_client, model="gpt-4-0613", **kwargs):
     return (
         client.chat.completions.create(
             messages=messages,
-            model="gpt-4-0613",
+            model=model,
             temperature=1.2,
             max_tokens=max_tokens,
             **kwargs,
@@ -171,10 +171,10 @@ def call_gpt4(messages, client=openai_client, **kwargs):
 
 def call_gemini(prompt, **kwargs):
     safety_settings = [
-        {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_ONLY_HIGH"},
-        {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_ONLY_HIGH"},
-        {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_ONLY_HIGH"},
-        {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_ONLY_HIGH"},
+        {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
+        {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
+        {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
+        {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
     ]
 
     generation_config = {
