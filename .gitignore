@@ -1,3 +1,4 @@
 .vscode/*
 old/*
 mfv_original_data/*
+.env
